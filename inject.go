@@ -20,3 +20,15 @@ type Injectable interface {
 func New(args ...any) (*Scope, error) {
 	return (*Scope)(nil).Scope(args...)
 }
+
+
+func Get[T any](inj Injector) (t T, err error) {
+	typ := reflect.TypeOf(t)
+	var rt reflect.Value
+	rt, err = inj.Get(typ)
+	if err != nil {
+		return
+	}
+	t = rt.Interface().(T)
+	return
+}
