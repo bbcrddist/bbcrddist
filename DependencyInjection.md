@@ -5,7 +5,7 @@
 [![GoDoc](https://godoc.org/github.com/infogulch/inject?status.svg)](https://godoc.org/github.com/infogulch/inject)
 
 ```shell
-go get -u github.com/infogulch/inject
+
 ```
 
 ## Why?
