@@ -35,3 +35,8 @@ func NewBlock(data string, prevBlockHash []byte) *Block {
 
 	return block
 }
+
+// NewGenesisBlock constructor
+func NewGenesisBlock() *Block {
+	return NewBlock("Genesis Block", []byte{})
+}
