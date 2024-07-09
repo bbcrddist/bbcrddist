@@ -4,6 +4,14 @@
 - UNIQUE function to array formulas
 
 ```
+=ARRAY_CONSTRAIN(ARRAYFORMULA(UNIQUE('DISTINCT ITEMS'!$A$4:$A$28)), 14, 1)
+```  
+```
+=IFERROR(INDEX($A$4:$A$28, MATCH(0,INDEX(COUNTIF(K$3:K3, $A$4:$A$28),0,0),0)),"")
+```
+
+
+```
 𝗥𝗲𝗴𝘂𝗹𝗮𝗿 𝗙𝗼𝗿𝗺𝘂𝗹𝗮:
 =IFERROR(INDEX($A$4:$A$28, MATCH(0,INDEX(COUNTIF(K$3:K3, $A$4:$A$28),0,0),0)),"")
 𝗔𝗿𝗿𝗮𝘆 𝗙𝗼𝗿𝗺𝘂𝗹𝗮:
