@@ -45,3 +45,10 @@ This formula filters to include only data from January.
 MONTH(B2:B11) = 1 checks for the month, and 
 VSTACK stacks the results. 
 It’s ideal for gathering and analyzing data for a specific month.
+
+
+6. Combine Sales Data from the Same Product Across Regions
+Formula: =VSTACK(FILTER(A2:G11, C2:C11="Phone"))
+Use this formula to filter and combine data where the Product is "Phone". 
+FILTER selects all "Phone" sales, and VSTACK combines them. 
+This  is perfect for analyzing the performance of a single product across different regions.
