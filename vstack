@@ -1,3 +1,17 @@
+
+```
+=VSTACK(FILTER(A2:G11, D2:D11="North"))
+
+=VSTACK(FILTER(A2:G11, (C2:C11="Laptop") + (C2:C11="Tablet")))
+
+=VSTACK(FILTER(A2:G11, DAY(B2:B11) <= 15))
+
+=VSTACK(FILTER(A2:G11, C2:C11 <> "Laptop"))
+
+=VSTACK(FILTER(A2:G11, MONTH(B2:B11) = 1))
+
+```
+
 - Excel: 6 Tricks of VSTACK with FILTER Function
 - How to combine the VSTACK and FILTER functions to manipulate and analyze your sales data in advanced ways. 
 - Can filter and aggregate data based on various conditions, allowing for more sophisticated data analysis and reporting tasks.
