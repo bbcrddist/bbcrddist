@@ -1,3 +1,11 @@
+- How to remove extra spaces from text in excel 
+ctrl-A and then ctrl-H Opens Find and Replace
+Find: space
+Replace: No space
+OK
+
+
+
 Excel: Progress bar
 
 =REPT(text, number, )
