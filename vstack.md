@@ -1,3 +1,9 @@
+Excel: Progress bar
+
+=REPT(text, number, )
+= REPT("|", C3) Change font to PlayBill for continous bar
+
+
 𝟲 𝗪𝗮𝘆𝘀 𝘁𝗼 𝗙𝗶𝗻𝗱 𝗗𝗶𝘀𝘁𝗶𝗻𝗰𝘁 𝗩𝗮𝗹𝘂𝗲𝘀 𝗶𝗻 𝗘𝘅𝗰𝗲𝗹
 
 - How to find distinct values in Excel using six different methods!
