@@ -1,3 +1,15 @@
+𝟲 𝗪𝗮𝘆𝘀 𝘁𝗼 𝗙𝗶𝗻𝗱 𝗗𝗶𝘀𝘁𝗶𝗻𝗰𝘁 𝗩𝗮𝗹𝘂𝗲𝘀 𝗶𝗻 𝗘𝘅𝗰𝗲𝗹
+
+- How to find distinct values in Excel using six different methods!
+- UNIQUE function to array formulas
+
+```
+𝗥𝗲𝗴𝘂𝗹𝗮𝗿 𝗙𝗼𝗿𝗺𝘂𝗹𝗮:
+=IFERROR(INDEX($A$4:$A$28, MATCH(0,INDEX(COUNTIF(K$3:K3, $A$4:$A$28),0,0),0)),"")
+𝗔𝗿𝗿𝗮𝘆 𝗙𝗼𝗿𝗺𝘂𝗹𝗮:
+=IFERROR(INDEX($A$4:$A$28,MATCH(0,COUNTIF($M$3:M3,$A$4:$A$28),0)),"")
+
+```
 
 ```
 =VSTACK(FILTER(A2:G11, D2:D11="North"))
